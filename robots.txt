@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: https://urvikh.github.io/sitemap-index.xml
-Host: https://urvikh.github.io
+Sitemap: https://urvikhanna.com/sitemap-index.xml
+Host: https://urvikhanna.com
