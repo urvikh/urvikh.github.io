@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Urvi Khanna's RSS Feed]]></title><description><![CDATA[Educator • Photographer • Anthropologist • Artist • Designer]]></description><link>https://urvikhanna.com</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 30 Jan 2023 05:24:58 GMT</lastBuildDate><item><title><![CDATA[What's the matter with you?]]></title><description><![CDATA[A visually and conceptually delightful exercise in building identity, graphics, typography, logo design and packaging. Every time this is…]]></description><link>https://urvikhanna.com/blog/2023-01-whats-the-matter-with-you/</link><guid isPermaLink="false">https://urvikhanna.com/blog/2023-01-whats-the-matter-with-you/</guid><pubDate>Fri, 27 Jan 2023 17:15:00 GMT</pubDate><content:encoded>&lt;p&gt;A visually and conceptually delightful exercise in building identity, graphics, typography, logo design and packaging. Every time this is repeated, it takes a new format. This can be done in a day or even extended to a week. Hope students enjoy it as much!&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;#&quot;&gt;&lt;span
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Urvi Khanna's RSS Feed]]></title><description><![CDATA[Educator • Photographer • Anthropologist • Artist • Designer]]></description><link>https://urvikhanna.com</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 30 Jan 2023 05:50:14 GMT</lastBuildDate><item><title><![CDATA[What's the matter with you?]]></title><description><![CDATA[A visually and conceptually delightful exercise in building identity, graphics, typography, logo design and packaging. Every time this is…]]></description><link>https://urvikhanna.com/blog/2023-01-whats-the-matter-with-you/</link><guid isPermaLink="false">https://urvikhanna.com/blog/2023-01-whats-the-matter-with-you/</guid><pubDate>Fri, 27 Jan 2023 17:15:00 GMT</pubDate><content:encoded>&lt;p&gt;A visually and conceptually delightful exercise in building identity, graphics, typography, logo design and packaging. Every time this is repeated, it takes a new format. This can be done in a day or even extended to a week. Hope students enjoy it as much!&lt;/p&gt;
+&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; &quot;
     &gt;
@@ -22,7 +22,7 @@
         loading=&quot;lazy&quot;
         decoding=&quot;async&quot;
       /&gt;
-    &lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+    &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;View class presentation with assignment &lt;a href=&quot;https://drive.google.com/file/d/1kRVHv6gywAUnqzNmeo4vQpp5pvP90B5L/view?usp=share_link&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
 &lt;style class=&quot;grvsc-styles&quot;&gt;
   .grvsc-container {
@@ -939,6 +939,121 @@
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
+&lt;style class=&quot;grvsc-styles&quot;&gt;
+  .grvsc-container {
+    overflow: auto;
+    position: relative;
+    -webkit-overflow-scrolling: touch;
+    padding-top: 1rem;
+    padding-top: var(--grvsc-padding-top, var(--grvsc-padding-v, 1rem));
+    padding-bottom: 1rem;
+    padding-bottom: var(--grvsc-padding-bottom, var(--grvsc-padding-v, 1rem));
+    border-radius: 8px;
+    border-radius: var(--grvsc-border-radius, 8px);
+    font-feature-settings: normal;
+    line-height: 1.4;
+  }
+  
+  .grvsc-code {
+    display: table;
+  }
+  
+  .grvsc-line {
+    display: table-row;
+    box-sizing: border-box;
+    width: 100%;
+    position: relative;
+  }
+  
+  .grvsc-line &gt; * {
+    position: relative;
+  }
+  
+  .grvsc-gutter-pad {
+    display: table-cell;
+    padding-left: 0.75rem;
+    padding-left: calc(var(--grvsc-padding-left, var(--grvsc-padding-h, 1.5rem)) / 2);
+  }
+  
+  .grvsc-gutter {
+    display: table-cell;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+  
+  .grvsc-gutter::before {
+    content: attr(data-content);
+  }
+  
+  .grvsc-source {
+    display: table-cell;
+    padding-left: 1.5rem;
+    padding-left: var(--grvsc-padding-left, var(--grvsc-padding-h, 1.5rem));
+    padding-right: 1.5rem;
+    padding-right: var(--grvsc-padding-right, var(--grvsc-padding-h, 1.5rem));
+  }
+  
+  .grvsc-source:empty::after {
+    content: &apos; &apos;;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+  
+  .grvsc-gutter + .grvsc-source {
+    padding-left: 0.75rem;
+    padding-left: calc(var(--grvsc-padding-left, var(--grvsc-padding-h, 1.5rem)) / 2);
+  }
+  
+  /* Line transformer styles */
+  
+  .grvsc-has-line-highlighting &gt; .grvsc-code &gt; .grvsc-line::before {
+    content: &apos; &apos;;
+    position: absolute;
+    width: 100%;
+  }
+  
+  .grvsc-line-diff-add::before {
+    background-color: var(--grvsc-line-diff-add-background-color, rgba(0, 255, 60, 0.2));
+  }
+  
+  .grvsc-line-diff-del::before {
+    background-color: var(--grvsc-line-diff-del-background-color, rgba(255, 0, 20, 0.2));
+  }
+  
+  .grvsc-line-number {
+    padding: 0 2px;
+    text-align: right;
+    opacity: 0.7;
+  }
+  
+&lt;/style&gt;</content:encoded></item><item><title><![CDATA[Post Graduate Certificate in Academic Practice]]></title><description><![CDATA[Here is a compilation of all work completed for the Post Graduate Certificate in Academic Practice (PGCAP), a course offered by Pearl…]]></description><link>https://urvikhanna.com/blog/2019-02-mirrorscopes/</link><guid isPermaLink="false">https://urvikhanna.com/blog/2019-02-mirrorscopes/</guid><pubDate>Wed, 27 Feb 2019 17:15:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;a href=&quot;https://mirrorscopes.home.blog&quot;&gt;Here&lt;/a&gt; is a compilation of all work completed for the Post Graduate Certificate in Academic Practice (PGCAP), a course offered by Pearl Academy, India for its faculty. This was an 11 month course in various aspects of higher education broadly including pedagogy, academic practice and administration.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://mirrorscopes.home.blog&quot;&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 60.122699386503065%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAMABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAgAF/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEAMQAAAByYEUI//EABgQAAMBAQAAAAAAAAAAAAAAAAABAhES/9oACAEBAAEFAlI5OaYlprl6f//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABgQAAMBAQAAAAAAAAAAAAAAAAABERBB/9oACAEBAAY/AiU4IaWf/8QAHBABAAICAwEAAAAAAAAAAAAAAQARITFBUWGB/9oACAEBAAE/IVeivZqo+wuVpiAy8sUBjUGE/9oADAMBAAIAAwAAABADD//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8QP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8QP//EABsQAQEAAwEBAQAAAAAAAAAAAAERACExQWGB/9oACAEBAAE/EJ90NaPcQsGuLn3XP3JAK6csYBCHlfMcZSq+mSgwz//Z&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;A JOURNEY OF SELF AWARENESS&quot;
+        title=&quot;&quot;
+        src=&quot;/static/e5bfdbd165feb301ead6f56f443d9c69/6aca1/mirrorscopes.jpg&quot;
+        srcset=&quot;/static/e5bfdbd165feb301ead6f56f443d9c69/d2f63/mirrorscopes.jpg 163w,
+/static/e5bfdbd165feb301ead6f56f443d9c69/c989d/mirrorscopes.jpg 325w,
+/static/e5bfdbd165feb301ead6f56f443d9c69/6aca1/mirrorscopes.jpg 650w,
+/static/e5bfdbd165feb301ead6f56f443d9c69/7c09c/mirrorscopes.jpg 975w,
+/static/e5bfdbd165feb301ead6f56f443d9c69/01ab0/mirrorscopes.jpg 1300w,
+/static/e5bfdbd165feb301ead6f56f443d9c69/3acf0/mirrorscopes.jpg 2000w&quot;
+        sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;style class=&quot;grvsc-styles&quot;&gt;
   .grvsc-container {
     overflow: auto;
